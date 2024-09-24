@@ -4,6 +4,7 @@
     src: url('styles/Jersey10-Regular.ttf');
   }
 
+/*rendered in nav component */
 .nav-bar {
     width: 100%;
     background-color: black;
@@ -14,6 +15,20 @@
     box-shadow: 50px white;
 
 
+}
+
+/* rendered in cookie collection form component */
+
+.cookie-form {
+    width: 75%;
+    height: 30%;
+    background-color: white;
+    font: bolder;
+    font-size:larger;
+    color: black;
+    padding: 40px 10px 10px 40px;
+    border-radius: 10px;
+    
 }
 
 .bg {
