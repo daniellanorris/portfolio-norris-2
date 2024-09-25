@@ -11,7 +11,8 @@ export default function CookiePopup() {
   // Handle form submission
   function handleSubmit(selectedValue) {
     if (selectedValue) {
-      setCookie(selectedValue); //will be useful when implementing context, not sure if this is going to be used yet.
+      setCookie(selectedValue); 
+      Cookies.set('Cookie ack', selectedValue, {expires: 7})//will be useful when implementing context, not sure if this is going to be used yet.
       console.log("Cookie selected: " + selectedValue);
       console.log("Cookie stored: " + Cookies.get("Cookie ack"));
     } else {
